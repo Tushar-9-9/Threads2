@@ -1,0 +1,23 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+	  "dev": "cross-env NODE_ENV=development nodemon C:/Users/tusha/Downloads/threads-clone-master/threads-clone-master/backend/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+	  "express": "^4.17.1",
+	  "dotenv": "^8.2.0",
+	  "cookie-parser": "^1.4.5",
+	  "cloudinary": "^1.24.0"
+	},
+	"devDependencies": {
+	  "nodemon": "^2.0.7",
+	  "cross-env": "^7.0.3"
+	}
+  }
+  
